@@ -91,7 +91,7 @@
 /**
  * Hide content off-screen without resorting to `display:none;`
  */
-.accessibility              { position:absolute; left:-99999px; }
+.accessibility, .screenreader, .seotext              { position:absolute; left:-99999px; }
 [dir=rtl] .accessibility    { left:auto; right:-99999px; }
 
 

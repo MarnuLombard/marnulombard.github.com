@@ -53,11 +53,19 @@ body {
 	letter-spacing: 0.015em;
 }
 
-.main,
-footer {
+
+small {
+	font-family: $font-plain;
+	font-size: 70%;
+}
+
+
+
+.main {
 	text-align: left;
 }
 
 .primary-text{
 	color: $color-primary;
 }
+

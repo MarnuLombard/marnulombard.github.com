@@ -72,7 +72,8 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/_extends\.scss}line{font-family:\000039}}
-.clearfix:after {
+.clearfix:after, section:after,
+.section:after {
   content: "";
   display: table;
   clear: both;
@@ -84,97 +85,106 @@
   background-color: #284f90;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000311}}
+section,
+.section,
+header,
+footer {
+  margin-top: 0;
+  margin-bottom: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000317}}
 .mt1 {
   margin-top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000318}}
 .mt2 {
   margin-top: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000319}}
 .mt3 {
   margin-top: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000320}}
 .mt4 {
   margin-top: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000321}}
 .mt5 {
   margin-top: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000322}}
 .mt6 {
   margin-top: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000323}}
 .mt7 {
   margin-top: 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000324}}
 .mt8 {
   margin-top: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000325}}
 .mt9 {
   margin-top: 9px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000326}}
 .mt10 {
   margin-top: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000327}}
 .mt15 {
   margin-top: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000328}}
 .mt20 {
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000329}}
 .mt30 {
   margin-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000330}}
 .mt40 {
   margin-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000331}}
 .mt50 {
   margin-top: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000332}}
 .mt75 {
   margin-top: 75px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000333}}
 .mt100 {
   margin-top: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000334}}
 .mt150 {
   margin-top: 150px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_layout\.scss}line{font-family:\0000335}}
 .mt200 {
   margin-top: 200px;
 }
@@ -233,31 +243,19 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_typography\.scss}line{font-family:\0000357}}
-.main,
-footer {
+small {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 70%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_typography\.scss}line{font-family:\0000364}}
+.main {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/generic\/_typography\.scss}line{font-family:\0000368}}
 .primary-text {
   color: #284f90;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/objects\/_navbar\.scss}line{font-family:\000031}}
-.nav {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebebeb), color-stop(100%, #d2d2d2));
-  background-image: -webkit-linear-gradient(top, #ebebeb, #d2d2d2);
-  background-image: -moz-linear-gradient(top, #ebebeb, #d2d2d2);
-  background-image: -o-linear-gradient(top, #ebebeb, #d2d2d2);
-  background-image: linear-gradient(top, #ebebeb, #d2d2d2);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/mixins\/_gradient\.scss}line{font-family:\0000315}}
-.nav:hover, .nav:focus, .nav:active {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2d2d2), color-stop(100%, #ebebeb));
-  background-image: -webkit-linear-gradient(top, #d2d2d2, #ebebeb);
-  background-image: -moz-linear-gradient(top, #d2d2d2, #ebebeb);
-  background-image: -o-linear-gradient(top, #d2d2d2, #ebebeb);
-  background-image: linear-gradient(top, #d2d2d2, #ebebeb);
 }
 
 /*------------------------------------*\
@@ -899,13 +897,12 @@ table {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  *behavior: url(../js/boxsizing.htc);
 }
 
 /**
  * The usual...
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000330}}
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
@@ -919,7 +916,7 @@ hr {
 /**
  * Give a help cursor to elements that give extra info on `:hover`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000338}}
 abbr[title], dfn[title] {
   cursor: help;
 }
@@ -927,7 +924,7 @@ abbr[title], dfn[title] {
 /**
  * Remove underlines from potentially troublesome elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000345}}
 a, u, ins {
   text-decoration: none;
 }
@@ -935,7 +932,7 @@ a, u, ins {
 /**
  * Apply faux underline via `border-bottom`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000352}}
 ins {
   border-bottom: 1px solid;
 }
@@ -943,7 +940,7 @@ ins {
 /**
  * So that `alt` text is visually offset if images don’t load.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000359}}
 img {
   font-style: italic;
 }
@@ -951,7 +948,7 @@ img {
 /**
  * Give form elements some cursor interactions...
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000371}}
 label,
 input,
 textarea,
@@ -961,7 +958,7 @@ option {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_reset\.scss}line{font-family:\0000377}}
 .text-input:active,
 .text-input:focus,
 textarea:active,
@@ -1079,7 +1076,7 @@ html {
  * heading hierarchy.
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/base\/_headings\.scss}line{font-family:\0000311}}
-h1, .alpha {
+h1, .alpha, .likeh1 {
   font-size: 36px;
   font-size: 2.25rem;
   line-height: 1.33333;
@@ -4084,7 +4081,7 @@ html.flexbox {
  * Hide content off-screen without resorting to `display:none;`
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HDD\/Work\/Personal\/Github\/marnulombard\.github\.com\/sass\/inuit\/generic\/_helper\.scss}line{font-family:\0000394}}
-.accessibility {
+.accessibility, .screenreader, .seotext {
   position: absolute;
   left: -99999px;
 }

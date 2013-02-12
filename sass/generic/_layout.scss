@@ -1,3 +1,18 @@
+// to wrap all grid objects
+section, 
+.section {
+	@extend .clearfix;
+}
+
+//to give all rows a bit of spacing
+section,
+.section,
+header,
+footer {
+	margin-top: 0;
+	margin-bottom: 3em;
+}
+
 //these are little margin-top magic number hacks
 .mt1	{margin-top: 1px;}
 .mt2	{margin-top: 2px;}

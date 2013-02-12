@@ -8,7 +8,7 @@
  * This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
  * heading hierarchy.
  */
-h1,.alpha{
+h1,.alpha, .likeh1{
     @include font-size($h1-size);
 }
 h2,.beta{
