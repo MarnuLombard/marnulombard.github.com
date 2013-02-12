@@ -2,15 +2,15 @@
 /* 	Import fonts	*/
 /* ---------------- */
 
-// Marcellus
+// Lato Light
 // $font-headings
 @include font-face(
-  'Marcellus', 
+  'Lato-light', 
     font-files(
-	  'Marcellus.woff', woff,
-	  'Marcellus.otf', opentype,
-	  'Marcellus.svg', svg ),
-  'Marcellus.eot'
+	  'Lato-light.woff', woff,
+	  'Lato-light.otf', opentype,
+	  'Lato-light.svg', svg ),
+  'Lato-light.eot'
 );
 
 // Orienta
@@ -24,19 +24,16 @@
   'Orienta.eot'
 );
 
-// Batch
-// used by inuit as an icon-font
+// Entypo
+// $font-glyph
 @include font-face(
-  'Batch', 
+  'Entypo', 
     font-files(
-	  'batch.woff', woff,
-	  'batch.otf', opentype,
-	  'batch.svg', svg ),
-  'batch.eot'
+	  'entypo.woff', woff,
+	  'entypo.otf', opentype,
+	  'entypo.svg', svg ),
+  'entypo.eot'
 );
-
-
-
 
 /* ---------------- */
 /* 	  Set styles	*/
@@ -60,12 +57,38 @@ small {
 }
 
 
-
+h1,
+h2,
+h3
+h4,
+h5,
+h6 {
+	font-family: $font-headings;
+}
 .main {
-	text-align: left;
+
 }
 
 .primary-text{
 	color: $color-primary;
 }
 
+.secondary-text {
+	color: $color-secondary_light;
+}
+
+.light-text {
+	font-family: $font-light;
+}
+
+// http://css-tricks.com/html-for-icon-font-usage/
+.glyph:before {
+  font-family: $font-glyph;
+  content: attr(data-icon);
+  speak: none;
+}
+.glyph {
+	display: inline-block;
+	*zoom:1;
+	*display:inline;
+}

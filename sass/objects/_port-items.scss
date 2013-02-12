@@ -1,0 +1,27 @@
+.port-item {
+		@extend .clearfix;
+		border-bottom: 1px solid $color-grey_light;
+	
+	&:nth-of-type(1) {
+		border-top: 1px solid $color-grey_light;
+	}	
+	
+	img {
+		width: 48%;
+		height: auto;
+		padding: 1em 1%;
+	}
+	
+	.port-text {
+		width: 48%;
+		padding: 1em 0 0 0.8em;
+		display: block;
+		text-align: left;
+		
+		.light-text {
+			margin-top: 0.4em;
+			font-size: 85%;
+			line-height: 1.2;
+		}
+	}
+}
