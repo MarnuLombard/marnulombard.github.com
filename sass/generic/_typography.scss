@@ -1,0 +1,63 @@
+/* ---------------- */
+/* 	Import fonts	*/
+/* ---------------- */
+
+// Marcellus
+// $font-headings
+@include font-face(
+  'Marcellus', 
+    font-files(
+	  'Marcellus.woff', woff,
+	  'Marcellus.otf', opentype,
+	  'Marcellus.svg', svg ),
+  'Marcellus.eot'
+);
+
+// Orienta
+// $font-body
+@include font-face(
+  'Orienta', 
+    font-files(
+	  'Orienta.woff', woff,
+	  'Orienta.otf', opentype,
+	  'Orienta.svg', svg ),
+  'Orienta.eot'
+);
+
+// Batch
+// used by inuit as an icon-font
+@include font-face(
+  'Batch', 
+    font-files(
+	  'batch.woff', woff,
+	  'batch.otf', opentype,
+	  'batch.svg', svg ),
+  'batch.eot'
+);
+
+
+
+
+/* ---------------- */
+/* 	  Set styles	*/
+/* ---------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: $font-body;
+	color: $color-text;
+	font-size: $base-font-size;
+	text-align: center;
+	letter-spacing: 0.015em;
+}
+
+.main,
+footer {
+	text-align: left;
+}
+
+.primary-text{
+	color: $color-primary;
+}
