@@ -27,12 +27,12 @@
 // Entypo
 // $font-glyph
 @include font-face(
-  'Entypo', 
+  'Icomoon', 
     font-files(
-	  'entypo.woff', woff,
-	  'entypo.otf', opentype,
-	  'entypo.svg', svg ),
-  'entypo.eot'
+	  'icomoon.woff', woff,
+	  'icomoon.otf', opentype,
+	  'icomoon.svg', svg ),
+  'icomoon.eot'
 );
 
 /* ---------------- */
@@ -65,8 +65,10 @@ h5,
 h6 {
 	font-family: $font-headings;
 }
-.main {
 
+a, 
+a:visited {
+	color: blue;
 }
 
 .primary-text{
@@ -81,6 +83,19 @@ h6 {
 	font-family: $font-light;
 }
 
+.huge {
+	font-size: 14em;
+}
+
+.batman {
+	color: $color-grey_light;
+	
+	.glyph{
+		color: $color-grey_XXlight;
+		text-shadow: 1px 1px 1px $color-grey_light;
+	}
+	
+}
 // http://css-tricks.com/html-for-icon-font-usage/
 .glyph:before {
   font-family: $font-glyph;

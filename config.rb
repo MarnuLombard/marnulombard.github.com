@@ -1,6 +1,3 @@
-# Require any additional compass plugins here.
-require 'modular-scale'
-
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "css"
@@ -10,8 +7,8 @@ javascripts_dir = "js"
 fonts_dir = http_path + "fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
-output_style = :expanded
-environment = :development
+output_style = :compressed
+environment = :production
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
@@ -26,5 +23,5 @@ line_comments = false
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :sass
-sass_options = { :debug_info => true }
+sass_options = { :debug_info => false }
 Compass::BrowserSupport.add_support("function-name", "webkit", "moz", "o", "ms")

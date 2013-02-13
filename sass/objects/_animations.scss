@@ -1,0 +1,150 @@
+// Straight up stolen from http://pixelsdaily.com/resources/html-css/css-animated-buttons/
+
+/*--------------------------------------------------
+	  Need to edit to work... If I get time.
+--------------------------------------------------*/
+
+
+/** Animations */
+		/* == Default Translate Animation */
+		.animated-button > .icon
+		{
+			-webkit-animation: icon_translate 3s infinite ease both;
+			-moz-animation: icon_translate 3s infinite ease both;
+			-ms-animation: icon_translate 3s infinite ease both;
+			-o-animation: icon_translate 3s infinite ease both;
+			animation: icon_translate 3s infinite ease both;
+		}
+
+		/* == Rotate Animation */
+		.animated-button.rotate:hover > .icon
+		{
+			-webkit-animation: zoom_rotate 0.6s ease-in-out;
+			-moz-animation: zoom_rotate 0.6s ease-in-out;
+			-ms-animation: zoom_rotate 0.6s ease-in-out;
+			-o-animation: zoom_rotate 0.6s ease-in-out;
+			animation: zoom_rotate 0.6s ease-in-out;
+		}
+
+		/* == Pulse Animation */
+		.animated-button.pulse:hover > .icon
+		{
+			-webkit-animation: pulse_animation 1s infinite ease-in-out;
+			-moz-animation: pulse_animation 1s infinite ease-in-out;
+			-ms-animation: pulse_animation 1s infinite ease-in-out;
+			-o-animation: pulse_animation 1s infinite ease-in-out;
+			animation: pulse_animation 1s infinite ease-in-out;
+		}
+
+		/* == Icon Translate Animation Keyframes */
+		@-webkit-keyframes icon_translate
+		{
+		  50%		{ -webkit-transform: translate(0, 5px);	}
+		  100%		{ -webkit-transform: translate(0, 0);	}
+		}
+
+		@-moz-keyframes icon_translate {
+		  50%		{ -moz-transform: translate(0, 5px);	}
+		  100%		{ -moz-transform: translate(0, 0);		}
+		}
+
+		@-o-keyframes icon_translate {
+		   50%		{ -o-transform: translate(0, 5px);		}
+		  100%		{ -o-transform: translate(0, 0);		}
+		}
+
+		@-ms-keyframes icon_translate {
+		   50%		{ -ms-transform: translate(0, 5px);		}
+		  100%		{ -ms-transform: translate(0, 0);		}
+		}
+
+		@keyframes icon_translate {
+		  50%		{ transform: translate(0, 5px);			}
+		  100%		{ transform: translate(0, 0);			}
+		}
+
+		/* == Zoom Rotate Animation Keyframes */
+		@-webkit-keyframes zoom_rotate
+		{
+		  50%		{ -webkit-transform: rotate(360deg) scale(20); opacity: 0;	} 
+		}
+
+		@-moz-keyframes zoom_rotate
+		{
+		  50%		{ -moz-transform: rotate(360deg) scale(20); opacity: 0;	} 
+		}
+
+		@-o-keyframes zoom_rotate
+		{
+		   50%		{ -o-transform: rotate(360deg) scale(20); opacity: 0;	} 
+		}
+
+		@-ms-keyframes zoom_rotate
+		{
+		   50%		{ -ms-transform: rotate(360deg) scale(20); opacity: 0;	} 
+		}
+
+		@keyframes zoom_rotate
+		{
+		  50%		{ transform: rotate(360deg) scale(20); opacity: 0;	} 
+		}	
+
+		/* == Pulse Animation Keyframes */
+		@-webkit-keyframes pulse_animation
+		{
+			0% { -webkit-transform: scale(1); }
+			30% { -webkit-transform: scale(1); }
+			40% { -webkit-transform: scale(1.08); }
+			50% { -webkit-transform: scale(1); }
+			60% { -webkit-transform: scale(1); }
+			70% { -webkit-transform: scale(1.05); }
+			80% { -webkit-transform: scale(1); }
+			100% { -webkit-transform: scale(1); }
+		}
+
+		@-moz-keyframes pulse_animation
+		{
+			0% { -moz-transform: scale(1); }
+			30% { -moz-transform: scale(1); }
+			40% { -moz-transform: scale(1.08); }
+			50% { -moz-transform: scale(1); }
+			60% { -moz-transform: scale(1); }
+			70% { -moz-transform: scale(1.05); }
+			80% { -moz-transform: scale(1); }
+			100% { -moz-transform: scale(1); }
+		}
+
+		@-o-keyframes pulse_animation
+		{
+			0% { -o-transform: scale(1); }
+			30% { -o-transform: scale(1); }
+			40% { -o-transform: scale(1.08); }
+			50% { -o-transform: scale(1); }
+			60% { -o-transform: scale(1); }
+			70% { -o-transform: scale(1.05); }
+			80% { -o-transform: scale(1); }
+			100% { -o-transform: scale(1); }
+		}
+
+		@-ms-keyframes pulse_animation
+		{
+			0% { -ms-transform: scale(1); }
+			30% { -ms-transform: scale(1); }
+			40% { -ms-transform: scale(1.08); }
+			50% { -ms-transform: scale(1); }
+			60% { -ms-transform: scale(1); }
+			70% { -ms-transform: scale(1.05); }
+			80% { -ms-transform: scale(1); }
+			100% { -ms-transform: scale(1); }
+		}
+
+		@keyframes pulse_animation
+		{
+			0% { transform: scale(1); }
+			30% { transform: scale(1); }
+			40% { transform: scale(1.08); }
+			50% { transform: scale(1); }
+			60% { transform: scale(1); }
+			70% { transform: scale(1.05); }
+			80% { transform: scale(1); }
+			100% { transform: scale(1); }
