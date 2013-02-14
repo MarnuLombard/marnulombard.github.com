@@ -1,4 +1,4 @@
 .bottom-shadow{
 	border-width: 0 0 2px 0;
-	@include border-image(linear-gradient(left, white 10%, $color-grey_Xlight 35%, $color-grey_light 50%, $color-grey_Xlight 65%, white 90%) 140)
+	@include border-image(linear-gradient(left, white 10%, $color-grey_Xlight 35%, $color-grey_light 50%, $color-grey_Xlight 65%, white 90%) 170)
 }
