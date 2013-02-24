@@ -70,6 +70,12 @@ ul.port-list {
 
 .port-link  {
 	display: block;
+	clear: both;
 	text-align: center;
-	@extend .delta
+	@extend .delta;
+	
+	.code & {
+		padding-top: 0.8em;
+		display: block;
+	}
 }

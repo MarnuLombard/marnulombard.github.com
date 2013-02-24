@@ -52,8 +52,12 @@ body {
 
 
 small {
-	font-family: $font-plain;
 	font-size: 70%;
+	
+	&.plain {
+		font-family: $font-plain;
+		font-weight: 200;
+	}
 }
 
 
@@ -90,7 +94,7 @@ a:visited {
 .batman {
 	color: $color-grey_light;
 	
-	.glyph{
+	.glyph {
 		color: $color-grey_XXlight;
 		text-shadow: 1px 1px 1px $color-grey_light;
 	}
