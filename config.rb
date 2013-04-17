@@ -1,27 +1,31 @@
-# Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "css"
-sass_dir = "sass"
+sass_dir = "scss"
 images_dir = "img"
 javascripts_dir = "js"
 fonts_dir = http_path + "fonts"
 
-# You can select your preferred output style here (can be overridden via the command line):
-output_style = :compressed
-environment = :production
-
-# To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
-
-# To disable debugging comments that display the original location of your selectors. Uncomment:
-color_output = false
-line_comments = false
-
-# If you prefer the indented syntax, you might want to regenerate this
-# project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
-# and then run:
-# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-preferred_syntax = :sass
-sass_options = { :debug_info => false }
+preferred_syntax = :scss
 Compass::BrowserSupport.add_support("function-name", "webkit", "moz", "o", "ms")
+
+
+
+##----------------------##
+##   Dev environment    ##
+##----------------------##
+# -- Uncomment for expanded, commented output for debugging
+output_style = :expanded
+environment = :development
+line_comments = true  # source maps don't get output if this is true
+sass_options = { :debug_info => true }
+
+
+##--------------------------##
+##  Production environment  ##
+##--------------------------##
+# -- Uncomment for compressed, uncommented output for server 
+#output_style = :compressed
+#environment = :production
+#line_comments = false
+#sass_options = { :debug_info => false }

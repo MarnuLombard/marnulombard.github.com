@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+// Compass
+@import "compass/support";
+@import "compass/css3";
+
+@import "vars";
+@import "extends";
+@import "mixins";
+@import "functions";
+
+// Styles
+@import "styles/color";
+@import "styles/forms";
+@import "styles/layout";
+@import "styles/lists";
+@import "styles/typography";
+
+// Objects
+@import "objects/footer";
+@import "objects/modules";
+@import "objects/navbar";
+
+// inuit.css
+@import "inuit/inuit";
+
+
+
+/*------------------------------------*\
+    		Test styles
+\*------------------------------------*/
+.test1 {
+
+}
+
+.test2 {
+	
+}

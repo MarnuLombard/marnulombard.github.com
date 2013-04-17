@@ -1,0 +1,18 @@
+// Copyright Stuart Robson 2013
+// /alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+/*
+$point : is the pixel value for your major or minor breakpoint
+$IE9 : is predefined as false, changing this to true would include the IE9 conditional class of CSS
+$query1 : this is for either min,max, min-device, or max-device defining the first part of the media query. Predefined as min
+$query2 : this if for either width or height defining the second part of the media query. Predefined as max.
+
+*/
+
+@mixin mq($point, $IE9: true, $query1: min, $query2: width) {
+    .lt-ie9 & {
+        @content;
+    }
+    @media screen and (#{$query1}-#{$query2}: $point / 16 +em) {
+        @content;
+    }
+}

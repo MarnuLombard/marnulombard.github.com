@@ -1,6 +1,0 @@
-header image
-	~ http://dribbble.com/bjango/projects/21874-Wallpaper
-	
-background size polyfill
-	~ https://github.com/louisremi/background-size-polyfill
-
